@@ -1,0 +1,45 @@
+{
+    "git.ignoreMissingGitWarning": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "C_Cpp.updateChannel": "Insiders",
+
+    // Doxygen documentation generator set
+    "doxdocgen.file.copyrightTag": [
+        "@copyright Copyright (c) {year} DQFLYING"
+    ],
+    "doxdocgen.file.customTag": [
+        "@par :",
+        "\n",
+        "Date        : {date}",
+        "Version     : 1.0",
+        "Author      : dqflying",
+        "Lisence     : ",
+        "Description : \n\n\n\n",
+    ],
+    "doxdocgen.file.fileOrder": [
+        "file",
+        "brief",
+        "author",
+        "version",
+        "date",
+        "empty",
+        "copyright",
+        "empty",
+        "custom"
+    ],
+    "doxdocgen.file.fileTemplate": "@file {name}",
+    "doxdocgen.file.versionTag": "@version 1.0",
+    "doxdocgen.generic.authorEmail": "dqflying@gmail.com",
+    "doxdocgen.generic.authorName": "dingqunfei",
+    "doxdocgen.generic.authorTag": "@author {author} ({email})",
+
+    "doxdocgen.generic.order": [
+        "brief",
+        "tparam",
+        "param",
+        "return"
+    ],
+    "doxdocgen.generic.paramTemplate": "@param{indent:8}{param}{indent:25}My Param doc",
+    "doxdocgen.generic.returnTemplate": "@return {type} ",
+    "doxdocgen.generic.splitCasingSmartText": true,
+}
